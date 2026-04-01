@@ -53,7 +53,7 @@ function App() {
 
         <div style={{ marginBottom: "1.25rem" }}>
           <label style={{ display: "block", fontSize: "13px", fontWeight: 500, color: "#374151", marginBottom: "6px" }}>Full Name</label>
-          <input value={name} onChange={e => setName(e.target.value)} placeholder="e.g. Amanda Garcia"
+          <input value={name} onChange={e => setName(e.target.value)} placeholder="e.g. Stephanie Garcia"
             style={{ width: "100%", height: "42px", border: "1.5px solid #e2eaf8", borderRadius: "10px", padding: "0 14px", fontSize: "14px", outline: "none" }} />
         </div>
 
